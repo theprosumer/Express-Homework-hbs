@@ -72,7 +72,7 @@ app.get('/home', function(req, res){
 })
 
 
-//for dev - so nodemon can show it is working
+//for terminal - so nodemon can show it is working
 server.listen(3000, function(){
 	console.log('port 3000 listening my brotha');
 })
